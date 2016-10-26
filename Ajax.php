@@ -23,7 +23,7 @@ class Ajax {
         
         echo "<div id='" . $label . "' ".implode(" ", $arr).">";
         
-        if($request->get('ajax'))
+        if($request->get('ajax') == $label)
             $APPLICATION->RestartBuffer();
         
     }
@@ -34,7 +34,7 @@ class Ajax {
 
         $request = self::getRequest();
         
-        if($request->get('ajax') == $label ) {
+        if($request->get('ajax') == $label) {
             die();
         }
        
