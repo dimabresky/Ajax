@@ -1,5 +1,5 @@
 <?php
-namespace travelsoft\helper;
+namespace travelsoft;
 
 /**
  * @author dimabresky
