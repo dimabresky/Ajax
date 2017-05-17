@@ -2,10 +2,8 @@
 namespace travelsoft;
 
 /**
- * @author dimabresky
- * 
  * Ajax class of the application
- * 
+ * @author dimabresky
  */
 class Ajax {
     
