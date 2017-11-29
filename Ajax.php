@@ -2,8 +2,9 @@
 namespace travelsoft;
 
 /**
- * Ajax class of the application
+ * Класс для подгрузки динамических областей
  * @author dimabresky
+ * @copyright (c) 2017, travelsoft
  */
 class Ajax {
     
@@ -29,7 +30,6 @@ class Ajax {
     public static function end ($label) {
         
         self::checkException($label, "End");
-
         $request = self::getRequest();
         
         if($request->get('ajax') == $label) {
